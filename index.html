@@ -738,16 +738,6 @@ footer {
     gap: 24px;
 }
 
-.footer-socials a {
-    color: var(--text-muted);
-    font-size: 1.2rem;
-    transition: var(--transition);
-}
-
-.footer-socials a:hover {
-    color: var(--primary);
-}
-
 /* Master Responsive Optimization Breaks */
 @media (max-width: 1120px) {
     h1 { font-size: 48px; }
@@ -1124,14 +1114,19 @@ footer {
 ```
 </section>
 
-<!-- Master Footer Grid System -->
-<footer>
-    <div>© 2026 Muhammad Hanif Rifki Rohman. Quality Assurance Engineer for Reliable Core Banking Systems</div>
-    <div class="footer-socials">
-        <a href="https://muhammadhanifrr.github.io" target="_blank" title="Production System Live Web"><i class="fa-solid fa-globe"></i></a>
-        <a href="https://www.linkedin.com/in/muhammad-hanif-rifki-rohman/" target="_blank" title="Official LinkedIn Profile Node"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="mailto:hanifrifki46@gmail.com" title="Direct SMTP Transmission"><i class="fa-solid fa-envelope"></i></a>
-    </div>
+<!-- Master Footer Block-->
+<footer style="display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; text-align: center; padding: 40px 8%; background: var(--surface); border-top: 1px solid var(--border);">
+    
+    <!-- Baris Atas: Copyright & Nama -->
+    <p style="margin: 0; font-size: 0.9rem; font-weight: 600; color: var(--text-main); letter-spacing: 0.03em;">
+        © 2026 Muhammad Hanif Rifki Rohman.
+    </p>
+    
+    <!-- Baris Bawah: Role & Spesialisasi (Lebih subtle & clean) -->
+    <p style="margin: 0; font-size: 0.75rem; font-weight: 500; color: var(--text-muted); letter-spacing: 0.05em; text-transform: uppercase;">
+        Quality Assurance Engineer for Reliable Core Banking Systems
+    </p>
+
 </footer>
 
 <!-- Premium Interaction Systems Engine -->
